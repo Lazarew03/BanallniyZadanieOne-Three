@@ -21,6 +21,7 @@ namespace BanallniyZadanie
             Console.Write(" Введите число: ");
             int equalNum = Convert.ToInt32(Console.ReadLine());// Что ввёл пользователь конвертируется в int(т.к изначально string) и присваивается переменной numberTwo
             task.EqualFiveOrTen(equalNum);// Вызывается метод из экземпляра класса task, принимающий 1 параметр(equalNum)
+            Console.ReadKey();
 
         }
     }
